@@ -1,0 +1,34 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --string-font-family-heading: "Montserrat";
+  --string-font-family-ui: "Open Sans";
+  --dimension-font-family-spacing-xs: 0px;
+  --dimension-font-weight-regular: 400px;
+  --dimension-font-weight-bold: 700px;
+  --dimension-font-size-heading: 48px;
+  --dimension-font-size-subtitle: 18px;
+  --dimension-font-size-body: 16px;
+  --dimension-font-size-button: 17px;
+  --dimension-font-size-small: 15px;
+  --dimension-spacing-xs: 8px;
+  --dimension-spacing-sm: 12px;
+  --dimension-spacing-md: 28px;
+  --dimension-spacing-lg: 32px;
+  --dimension-spacing-xl: 48px;
+  --color-primary: #0010a4;
+  --color-secondary: #dfdbfd;
+  --color-primary-text: #ffffff;
+  --color-secondary-text: #000000;
+  --color-primary: #d62188;
+  --color-primary-text: #ffffff;
+  --color-secondary: #fee9fe;
+  --color-secondary-text: #1f2430;
+  --color-tertiary: #f59e0b;
+  --color-tertiary-text: #1f2430;
+  --color-neutral-white: #ffffff;
+  --color-neutral-black: #000000;
+}
