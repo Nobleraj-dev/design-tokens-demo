@@ -1,2 +1,28 @@
-/* Base tokens */
-@import "./tokens.css";
+:root {
+  --font-family-heading: "Montserrat";
+  --font-family-ui: "Open Sans";
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --font-size-heading: 48px;
+  --font-size-subtitle: 18px;
+  --font-size-body: 16px;
+  --font-size-button: 17px;
+  --font-size-small: 15px;
+
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 28px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+
+  --color-primary: #d62188;
+  --color-primary-text: #ffffff;
+  --color-secondary: #fee9fe;
+  --color-secondary-text: #1f2430;
+  --color-tertiary: #f59e0b;
+  --color-tertiary-text: #1f2430;
+  --color-neutral-white: #ffffff;
+  --color-neutral-black: #000000;
+}
