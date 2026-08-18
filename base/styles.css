@@ -2,16 +2,16 @@
 
 body {
   margin: 0;
-  font-family: var(--font-family-ui);
+  font-family: var(--string-font-family-ui);
   display: flex;
   min-height: 100vh;
-  background: var(--color-bg);
+  background: var(--color-neutral-white);
 }
 
 .login-panel {
   flex: 1;
   max-width: 620px;
-  padding: var(--spacing-xl) var(--spacing-xl) var(--spacing-xl) 80px;
+  padding: var(--dimension-spacing-xl) var(--dimension-spacing-xl) var(--dimension-spacing-xl) 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,8 +20,8 @@ body {
 .logo-row {
   display: flex;
   align-items: center;
-  gap: var(--spacing-sm);
-  margin-bottom: var(--spacing-xl);
+  gap: var(--dimension-spacing-sm);
+  margin-bottom: var(--dimension-spacing-xl);
 }
 
 .logo-mark {
@@ -31,38 +31,38 @@ body {
 }
 
 .logo-text {
-  font-size: var(--font-size-small);
-  font-weight: var(--font-weight-bold);
+  font-size: var(--dimension-font-size-small);
+  font-weight: var(--dimension-font-weight-bold);
   letter-spacing: 1px;
   color: var(--color-secondary-text);
   text-transform: uppercase;
 }
 
 h1.login-title {
-  font-family: var(--font-family-heading);
-  font-size: var(--font-size-heading);
-  font-weight: var(--font-weight-bold);
-  margin: 0 0 var(--spacing-xs) 0;
+  font-family: var(--string-font-family-heading);
+  font-size: var(--dimension-font-size-heading);
+  font-weight: var(--dimension-font-weight-bold);
+  margin: 0 0 var(--dimension-spacing-xs) 0;
   color: var(--color-secondary-text);
 }
 
 .login-subtitle {
-  font-family: var(--font-family-ui);
-  font-size: var(--font-size-subtitle);
-  font-weight: var(--font-weight-regular);
+  font-family: var(--string-font-family-ui);
+  font-size: var(--dimension-font-size-subtitle);
+  font-weight: var(--dimension-font-weight-regular);
   color: var(--color-secondary-text);
-  margin: 0 0 var(--spacing-lg) 0;
+  margin: 0 0 var(--dimension-spacing-lg) 0;
 }
 
 .field {
   width: 100%;
-  padding: 16px var(--spacing-md);
-  font-family: var(--font-family-ui);
-  font-size: var(--font-size-body);
-  font-weight: var(--font-weight-regular);
-  border: 1.5px solid var(--color-border);
+  padding: 16px var(--dimension-spacing-md);
+  font-family: var(--string-font-family-ui);
+  font-size: var(--dimension-font-size-body);
+  font-weight: var(--dimension-font-weight-regular);
+  border: 1.5px solid var(--color-secondary);
   border-radius: 10px;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--dimension-spacing-md);
   color: var(--color-secondary-text);
 }
 
@@ -75,22 +75,22 @@ h1.login-title {
 
 .forgot-link {
   display: inline-block;
-  font-size: var(--font-size-small);
-  font-weight: var(--font-weight-bold);
+  font-size: var(--dimension-font-size-small);
+  font-weight: var(--dimension-font-weight-bold);
   color: var(--color-primary);
   text-decoration: none;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--dimension-spacing-md);
 }
 
 .btn {
   width: 100%;
   padding: 16px;
-  font-family: var(--font-family-ui);
-  font-size: var(--font-size-button);
-  font-weight: var(--font-weight-bold);
+  font-family: var(--string-font-family-ui);
+  font-size: var(--dimension-font-size-button);
+  font-weight: var(--dimension-font-weight-bold);
   border-radius: 10px;
   cursor: pointer;
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--dimension-spacing-sm);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,8 +103,6 @@ h1.login-title {
   border: none;
 }
 
-.btn-primary:hover { background-color: var(--color-primary-hover); }
-
 .btn-outline {
   background-color: var(--color-neutral-white);
   color: var(--color-primary);
@@ -113,14 +111,14 @@ h1.login-title {
 
 .signup-row {
   text-align: center;
-  margin-top: var(--spacing-sm);
-  font-size: var(--font-size-small);
-  font-weight: var(--font-weight-regular);
+  margin-top: var(--dimension-spacing-sm);
+  font-size: var(--dimension-font-size-small);
+  font-weight: var(--dimension-font-weight-regular);
   color: var(--color-secondary-text);
 }
 
 .signup-row a {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--dimension-font-weight-bold);
   color: var(--color-primary);
   text-decoration: none;
 }
