@@ -1,0 +1,20 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --dimension-font-family-spacing-xs: 0px;
+  --dimension-font-weight-regular: 400px;
+  --dimension-font-weight-bold: 700px;
+  --dimension-font-size-heading: 48px;
+  --dimension-font-size-subtitle: 18px;
+  --dimension-font-size-body: 16px;
+  --dimension-font-size-button: 17px;
+  --dimension-font-size-small: 15px;
+  --dimension-spacing-xs: 8px;
+  --dimension-spacing-sm: 12px;
+  --dimension-spacing-md: 28px;
+  --dimension-spacing-lg: 32px;
+  --dimension-spacing-xl: 48px;
+}
